@@ -3,7 +3,7 @@
 switch user to root `sudo su`
 > in /etc/NetworkManager/NetworkManager.conf
 ```file
-[ifudown]
+[ifupdown]
 managed=True
 ```
 ## Remove NetworkManager state and restart service
